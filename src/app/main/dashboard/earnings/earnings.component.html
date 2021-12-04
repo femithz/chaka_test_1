@@ -1,0 +1,31 @@
+<div class="table-content">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>Company</th>
+          <th>Fiscal Period</th>
+          <th>Consensus Estimated EPS</th>
+          <th>Actual EPS</th>
+          <th>Suprise</th>
+          <th>EPS, Year Ago</th>
+          <th>% Change From Last Year</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of earnings?.quarterlyEarnings | paginate: { itemsPerPage: 10, currentPage: p }">
+          <td>{{earningssymbol}}</td>
+          <td>{{earningssymbol}}</td>
+          <td>{{item?.fiscalDateEnding}}</td>
+          <td>{{item?.estimatedEPS}}</td>
+          <td>{{item?.reportedEPS}}</td>
+          <td>{{item?.surprise}}</td>
+          <td>{{item?.reportedDate}}</td>
+          <td>{{item?.surprisePercentage}}</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="mb-2 mt-2 float-right">
+        <pagination-controls (pageChange)="p = $event"></pagination-controls>
+    </div>
+</div>

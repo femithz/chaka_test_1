@@ -1,0 +1,38 @@
+<div class="app-list">
+    <div class="row">
+        <div class="col-md-4 app-col" >
+            <div class="card card__app-list">
+                <div class="card-body">
+                  <h3>IBM</h3>
+                  <div class="hr"></div>
+                  <span class="card-option float-right mt-2">Open Price: {{dailyIbmPriceOpen}}</span><br>
+                  <span class="card-option text-danger float-right mt-2">Lowest Price: {{dailyIbmPriceLow}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 app-col" >
+            <div class="card card__app-list">
+                <div class="card-body">
+                    <h3>MSFT</h3>
+                    <div class="hr"></div>
+                    <span class="card-option float-right mt-2">Open Price: {{dailyMsftPriceOpen}}</span><br>
+                    <span class="card-option text-danger float-right mt-2">Lowest Price: {{dailyMsftPriceLow}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 app-col" >
+            <div class="card card__app-list">
+                <div class="card-body">
+                    <h3>BNGO</h3>
+                    <div class="hr"></div>
+                    <span class="card-option float-right mt-2">Open Price: {{dailyBingoPriceOpen}}</span><br>
+                    <span class="card-option text-danger float-right mt-2">Lowest Price: {{dailyBingoPriceLow}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="mt-2">
+          <p>Active Stock last updated: <span> <small class="date ml-2">{{latest_ibm_stock_price_meta || latest_msft_stock_price_meta || latest_bngo_stock_price_meta  }}</small></span> </p> 
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,107 @@
+/* dashboard page */
+.dashboard-logo {
+    width: 40%;
+}
+
+#dashboard-content {
+    width: 94%;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 2rem;
+}
+
+.app-list {
+    margin-top: 2rem;
+}
+
+.app-col {
+    margin-bottom: 1rem;
+}
+
+.app-section {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.card__app-list {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.hr {
+    height: 0.2vh;
+    margin-top: 0.5rem;
+    background-color: #f2f2f2;
+    border: 0.3px solid #f2f2f2
+}
+
+.content-area {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 80vh;
+    margin-top: 3rem;
+}
+
+
+/* dashboard css section start */
+.title{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #25282B;
+}
+
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    cursor: pointer;
+}
+
+
+.md-title{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #01247D;
+}
+h6 span{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #2D3892;
+}
+.note{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #828DA4;
+}
+
+
+.card-option {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    color: #01247E;
+    cursor: pointer;
+}
+
+
+
+/* dashboard css section ends */
+
